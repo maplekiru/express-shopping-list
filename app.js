@@ -18,7 +18,6 @@ app.use("/items", itemRoutes);
 // - double check import / export everything
 // - Docstrings!
 
-// - install supertest
 // - update package.json scripts
 // - add testing
 

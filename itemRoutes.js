@@ -23,7 +23,7 @@ router.post("/", function (req, res, next) {
   return res.json({ added: item });
 });
 
-/** GET /items/:name to return a single item */
+/** GET /items/:name to return a single item */ //show JSON in docstring!!!
 router.get("/:name", function (req, res, next) {
   let name = req.params.name;
   let item = db.items.find(i => i.name === name);
