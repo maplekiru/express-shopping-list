@@ -12,11 +12,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(logger);
 
-app.use(itemRoutes);
+app.use("/items", itemRoutes);
 
 // TODO: 
-// - add router for items
 // - double check import / export everything
+// - Docstrings!
 
 // - install supertest
 // - update package.json scripts
